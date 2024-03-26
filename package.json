@@ -1,0 +1,11 @@
+{
+  "name": "react-course-v3",
+  "version": "1.0.0",
+  "description": "The content is part of my React Course. If you enjoy the content and my teaching style, you can always enroll in the full course (link below)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
