@@ -9,6 +9,7 @@ import Book from './Book';
 function BookList() {
   return (
     <>
+      
       <h1>amazon best sellers</h1>
       <section className='booklist'>
         {books.map((book) => {
@@ -19,6 +20,8 @@ function BookList() {
   );
 }
 
+//get the root id
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+//render the component which has a self closing tag
 root.render(<BookList />);

@@ -1,6 +1,7 @@
 import img1 from './images/book-1.jpg';
 import img2 from './images/book-2.jpg';
 import img3 from './images/book-3.jpg';
+import img4 from './images/book-4.jpg';
 export const books = [
   {
     author: 'Jordan Moore',
@@ -20,4 +21,11 @@ export const books = [
     img: img3,
     id: 3,
   },
-];
+
+  {
+    author: 'Adam Wallace',
+    title: 'How to Catch the Easter Bunny',
+    img: img4,
+    id: 4,
+  },
+]
