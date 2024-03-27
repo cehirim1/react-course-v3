@@ -1,4 +1,5 @@
 const Book = (props) => {
+  //destructure the properties/objects
   const { img, title, author } = props;
 
   return (
